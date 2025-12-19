@@ -6,47 +6,47 @@
 	},
 	{
 		"link": "1-overview/README.md",
-		"char_ofs": 261,
-		"byte_ofs": 517
+		"char_ofs": 271,
+		"byte_ofs": 527
 	},
 	{
 		"link": "1-overview/1-prerequisite.md",
-		"char_ofs": 270,
-		"byte_ofs": 535
+		"char_ofs": 280,
+		"byte_ofs": 545
 	},
 	{
 		"link": "1-overview/2-about-auto-backup.md",
-		"char_ofs": 416,
-		"byte_ofs": 775
+		"char_ofs": 436,
+		"byte_ofs": 795
 	},
 	{
 		"link": "2-use-to-auto-backup/README.md",
-		"char_ofs": 729,
-		"byte_ofs": 1500
+		"char_ofs": 769,
+		"byte_ofs": 1540
 	},
 	{
 		"link": "2-use-to-auto-backup/1-setting.md",
-		"char_ofs": 745,
-		"byte_ofs": 1535
+		"char_ofs": 785,
+		"byte_ofs": 1575
 	},
 	{
 		"link": "2-use-to-auto-backup/2-execute-auto-backup.md",
-		"char_ofs": 3025,
-		"byte_ofs": 5101
+		"char_ofs": 3065,
+		"byte_ofs": 5141
 	},
 	{
 		"link": "2-use-to-auto-backup/3-restoration.md",
-		"char_ofs": 4229,
-		"byte_ofs": 6999
+		"char_ofs": 4269,
+		"byte_ofs": 7039
 	},
 	{
 		"link": "appendices/rules-occupational-safety.md",
-		"char_ofs": 4672,
-		"byte_ofs": 7935
+		"char_ofs": 4712,
+		"byte_ofs": 7975
 	},
 	{
 		"link": "quality-assurance.md",
-		"char_ofs": 4892,
-		"byte_ofs": 8333
+		"char_ofs": 4932,
+		"byte_ofs": 8373
 	}
 ]

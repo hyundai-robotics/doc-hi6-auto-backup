@@ -1,6 +1,6 @@
 ﻿# Table of contents
 
-* [Hi6 로봇제어기 기능설명서 - 자동 백업](README.md)
+* [${cont_model} 로봇제어기 기능설명서 - 자동 백업](README.md)
 * [1. 개요](1-overview/README.md)
   * [1.1 사전지식](1-overview/1-prerequisite.md)
   * [1.2 자동 백업 기능에 대해서](1-overview/2-about-auto-backup.md)
