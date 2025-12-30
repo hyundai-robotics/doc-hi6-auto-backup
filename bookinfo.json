@@ -1,12 +1,12 @@
 {
     "langCode": "en",
-    "series": "Hyundai Robot Hi7 Controller",
+    "series": "Hyundai Robot Hi6 Controller",
     "title": "Function Manual - Auto Backup",
     "publisher": "HD Hyundai Robotics",
     "manualReleaseDate": "2025.12.30",
     "tocTitle": "Table of Contents",
     "tocTitleElements": "[ \"h1\", \"h2\" ]",
     "variables": {
-        "cont_model": "Hi7"
+        "cont_model": "Hi6"
     }
 }
