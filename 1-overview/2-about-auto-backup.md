@@ -1,9 +1,13 @@
-﻿# 1.2 자동 백업 기능에 대해서
+﻿# 1.2 About the Auto Backup Function
 
-자동 백업은 미리 설정된 조건에 의해 ${cont_model} 제어기의 현재 프로젝트 폴더, 로그(log) 폴더 전체를 자동 혹은 수동으로 백업하는 기능 입니다. 사용자는 백업된 시점 중 하나를 선택하여 시스템을 복원할 수 있습니다. 고장 혹은 사용자 실수에 의해 ${cont_model} 제어기의 파일이 지워지거나 손상되었을 때, 이러한 백업 데이터들이 사용됩니다.
+The Auto Backup function automatically or manually backs up the current `project/` folder and the entire `log/` folder of the ${cont_model} controller according to predefined conditions.
+Users can restore the system by selecting one of the saved backup points.
+These backup data are used when files of the ${cont_model} controller are deleted or damaged due to a malfunction or user error.
 
-백업을 수행하는 조건은 다음 3가지 방식으로 정할 수 있습니다.
+The backup operation can be configured using the following three methods:
 
-1. 지정된 날짜와 시간 (최대 4개 설정)
-2. 지정된 입력할당신호가 켜질 때
-3. 수동 → 자동으로 모드가 전환될 때
+1. At specified days of the week and times (up to four schedules can be set)
+
+2. When a specified input assignment signal is turned ON
+
+3. When the operating mode is switched from Manual to Automatic

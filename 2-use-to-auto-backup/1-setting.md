@@ -1,12 +1,12 @@
-﻿# 2.1 설정
+﻿# 2.1 Settings
 
-`[F2: 시스템] – 2: 제어 파라미터 - 8: 자동 백업 및 복원 화면`으로 진입하십시오.
+Navigate to `[F2: System] – 2: Control parameter – 8: Automatic Backup & Restoration`.
 
-![그림. 자동 백업 및 복원 화면](<../_assets/auto-backup.png>)
+Press the `[F2: Backup Now]` button to perform a backup immediately, regardless of the current settings.
+(Only the `automatic backup storage location` follows the currently saved configuration.)
 
-`[F2: 지금 백업]` 버튼을 누르면, 설정에 관계없이 즉시 백업이 수행됩니다. (자동백업 보관장소 만은 현재 저장된 설정을 따릅니다.)
-
-화면의 항목들을 설정한 후 `[확인]` 버튼을 누르면, 설정값들이 저장/적용됩니다. 각 항목의 의미는 다음 표와 같습니다.
+After configuring the items on the screen, press the `[F7: OK]` button to save and apply the settings.
+The meanings of each item are described in the table below.
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -18,24 +18,24 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <thead>
 	<tr>
 		<th>
-			항 목
+			Entry
 		</th>
 		<th colspan="2">
-			설 명
+			Description
 		</th>
 		<th>
-			기 타
+			Notes
 		</th>
 	</tr>
 </thead>	
 <tbody>
 	<tr>
 		<td>
-			자동백업 보관장소
+			Automatic-backup storage
 		</td>
 		<td colspan="2">
-			TP: 티치펜던트의 저장장치(storage)에 백업할 지 여부.<br>
-			MAIN: 메인모듈(COM)의 스토리지에 백업할 지 여부.
+			TP: Specifies whether to back up to the Teach Pendant storage device.<br>
+			MAIN: Specifies whether to back up to the main module (COM) storage.
 		</td>
 		<td>
 			-
@@ -43,10 +43,11 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 	<tr>
 		<td>
-			최대 백업 버전수
+			Maximum number of backup versions
 		</td>
 		<td colspan="2">
-			최대 몇 개의 백업 지점을 관리할 것인지를 설정.<br/> 지정한 개수이상으로 백업이 수행될 때는 가장 오래된 백업 폴더들이 삭제됩니다.
+			Sets the maximum number of backup points to retain.
+			When the number of backups exceeds the specified limit, the oldest backup folders are automatically deleted.
 		</td>
 		<td>
 			1~100
@@ -54,10 +55,11 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 	<tr>
 		<td>
-			백업 시간
+			Free space:
 		</td>
 		<td colspan="2">
-			매일 혹은 특정 요일의 특정 시간에 백업이 자동으로 수행되도록 설정합니다. 최대 4개의 스케줄을 입력할 수 있습니다. 사용하지 않는 스케줄은 체크를 끄십시오.
+			Configures automatic backups to be performed daily or at a specific time on selected days of the week.
+			Up to four schedules can be set. Disable unused schedules by unchecking them.
 		</td>
 		<td>
 			00:00
@@ -67,11 +69,11 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 	<tr>
 		<td rowspan="4">
-			모드 전환시 백업
-			(수동 &agrave; 자동)
+			Backup on mode change<br>
+			(Manual -> Auto)
 		</td>
 		<td colspan="2">
-			수동모드에서 자동모드로 전환되는 순간의 백업 여부를 설정합니다.
+			Configures whether a backup is performed at the moment the mode changes from Manual to Automatic.
 		</td>
 		<td rowspan="4">
 			-
@@ -79,35 +81,35 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 	<tr>
 		<td>
-			- 무효:
+			- Disable:
 		</td>
 		<td>
-			백업하지 않음
-		</td>
-	</tr>
-	<tr>
-		<td>
-			- 사용자 확인:
-		</td>
-		<td>
-			사용자에게 백업할 지를 확인받는 대화상자를 표시. 예로 답하면 백업.
+			No backup is performed.
 		</td>
 	</tr>
 	<tr>
 		<td>
-			- 확인없이:
+			- User confirm:
 		</td>
 		<td>
-			사용자 확인 대화상자를 표시하지 않고, 즉시 백업.
+			Displays a dialog asking the user whether to perform a backup. Backup is executed if the user selects 'Yes'.
 		</td>
 	</tr>
 	<tr>
 		<td>
-			입력할당신호
-			(백업실행)
+			- No confirm:
+		</td>
+		<td>
+			Performs a backup immediately without displaying a confirmation dialog.
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Input assignment signal<br>
+			(run backup)
 		</td>
 		<td colspan="2">
-			지정한 입력신호가 켜지는 순간, 백업을 실행합니다.
+			Executes a backup at the moment the specified input signal turns ON.
 		</td>
 		<td>
 			-
@@ -115,11 +117,11 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 	<tr>
 		<td>
-			출력할당신호
-			(백업중)
+			Output assignment signal<br>
+			(during backup)
 		</td>
 		<td colspan="2">
-			백업이 수행되는 동안 지정한 출력신호가 켜집니다.
+			The specified output signal turns ON while a backup is in progress.
 		</td>
 		<td>
 			-
@@ -127,12 +129,12 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 	<tr>
 		<td>
-			출력할당신호
-			(백업에러)
+			Output assignment signal<br>
+			(backup error)
 		</td>
 		<td colspan="2">
-			백업 수행에 에러가 발생하면 켜집니다.
-			[Reset]키를 두번 누르거나 혹은 [Reset][0][ENTER] 키를 누르면 해제됩니다.
+			Turns ON when an error occurs during the backup process.
+			The signal is cleared by pressing the [Reset] key twice, or by pressing [Reset][0][ENTER].
 		</td>
 		<td>
 			-
@@ -142,16 +144,16 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 
 
-할당신호의 설정값을 입력하는 예는 다음과 같습니다.
+Example of Assignment Signal Settings.
 
 <table>
 <thead>
 	<tr>
 		<th>
-			설정 예
+			Setting Example
 		</th>
 		<th>
-			설정 결과
+			Result
 		</th>
 	</tr>
 </thead>
@@ -161,7 +163,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 			135
 		</td>
 		<td>
-			135 (do135, 혹은 di135)
+			135 (do135 or di135)
 		</td>
 	</tr>
 	<tr>
@@ -169,7 +171,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 			5.220
 		</td>
 		<td>
-			fb5.220 (fb5의 do220, 혹은 di220)
+			fb5.220 (do220 or di220 of fb5)
 		</td>
 	</tr>
 </tbody>

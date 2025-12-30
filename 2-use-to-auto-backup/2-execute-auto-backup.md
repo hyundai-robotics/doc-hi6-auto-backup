@@ -1,8 +1,12 @@
-﻿# 2.2 자동 백업의 실행
+﻿# 2.2 Execution of Automatic Backup
 
-백업 조건이 만족하는 순간 백업이 실행됩니다. 설정 화면, 교시, 조그 진행 도중, 자동 모드의 로봇 재생 등 어떠한 상황에서도 백업은 수행됩니다. 단, 이미 백업이나 복원이 수행되고 있는 중에는 백업이 수행되지 않습니다.
+A backup is executed at the moment the configured backup conditions are met.
+Backups are performed in any situation, including during the settings screen, teaching operations, jogging, or robot playback in Automatic mode.
+However, a backup will not be executed while another backup or a restore operation is already in progress.
 
-백업 중엔 화면에 아래 그림과 같은 메시지박스가 나타납니다. 완료 메시지가 나올 때까지 조작을 멈추고 기다려주십시오.
+During the backup process, a message box like the one shown below appears on the screen.
+Please stop all operations and wait until the completion message is displayed.
+
 
 ![](../_assets/backup_st.png)
 
@@ -10,7 +14,7 @@
 
 ![](../_assets/backup_en.png)
 
-백업되는 위치는 티치펜던트 혹은 메인 모듈 내의 아래 경로입니다.
+The backup data are stored in the following paths on the Teach Pendant or the main module.
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -21,41 +25,43 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <table>
 	<tr>
 		<td class='grayed'>
-			<p>경로명 - TP</p>
+			<p>Path Name – TP</p>
 		</td>
 		<td>
 			<p>/usr/share/hyundai/hi6/backup/ts/</p>
 		</td>
 		<td>
-			<p>파일관리자 화면에서 TP 항목 밑의 backup/ts/</p>
+			<p>`backup/ts/` under the TP item in the File Manager screen</p>
 		</td>
 	</tr>
 	<tr>
 		<td class='grayed'>
-			<p>경로명 - MAIN</p>
+			<p>Path Name – MAIN</p>
 		</td>
 		<td>
 			<p>/ata0:2/lib/hi6/backup/ts/</p>
 		</td>
 		<td>
-			<p>파일관리자 화면에서 MAIN 항목 밑의 backup/ts/</p>
+			<p>`backup/ts/` under the MAIN item in the File Manager screen</p>
 		</td>
 	</tr>
 	<tr>
 		<td class='grayed'>
-			<p>생성되는 서브폴더명</p>
+			<p>Generated Subfolder Name</p>
 		</td>
 		<td>
-			<p>b{날짜}_{시간}의 형식</p>
+			<p>Format: b{date}_{time}</p>
 		</td>
 		<td>
-			<p>접두어 b는 backup을 의미</p>
+			<p>The prefix "b" indicates backup</p>
 		</td>
 	</tr>
 </table>
 
-예) MAIN/backup/ts/b20230512_1730/
+Example:<br>
+MAIN/backup/ts/b20230512_1730/
 
-메인보드의 여유공간이 10% 미만일 경우에는, 가장 오래된 백업지점을 삭제한 후 백업이 수행됩니다. 만일, 백업 중 여유공간이 모자랄 경우에는 백업이 중단됩니다.
+If the available free space on the main board is less than 10%, the oldest backup point is deleted before performing a new backup.
+If insufficient free space is detected during the backup process, the backup operation is aborted.
 
-이력 창을 열면, 백업 시작과 종료, 에러의 기록을 볼수 있습니다.
+By opening the History window, you can view records of backup start, completion, and errors
