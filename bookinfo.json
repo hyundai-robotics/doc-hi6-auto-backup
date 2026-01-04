@@ -8,7 +8,7 @@
     "variables": {
         "cont_model": "Hi6"
     },
-    "docId": "HI6TP630OP_KO_001",
+    "docId": "HI6AUTOBACKUP_KO_001",
     "references": [
         { "rpath" : "doc-hi6-operation/korean-Hi6-tp630" },
         { "rpath" : "doc-hi6-n-maintenance/korean" }
