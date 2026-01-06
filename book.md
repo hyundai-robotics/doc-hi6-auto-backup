@@ -1,4 +1,4 @@
-﻿# Hi6 Robot Controller Function Manual - Auto Backup
+﻿# Hi7 Robot Controller Function Manual - Auto Backup
 
 {% hint style="warning" %}
 The information provided in this product manual is the property of HD Hyundai Robotics.
@@ -18,12 +18,12 @@ The manual is subject to change without prior notification.
 
 The following knowledge is necessary to understand this manual.
 
-* [Hi6 Robot Controller Operation Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-Hi6-tp630/README)
+* [Hi7 Robot Controller Operation Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-Hi7-tp630/README)
 # 1.2 About the Auto Backup Function
 
-The Auto Backup function automatically or manually backs up the current `project/` folder and the entire `log/` folder of the Hi6 controller according to predefined conditions.
+The Auto Backup function automatically or manually backs up the current `project/` folder and the entire `log/` folder of the Hi7 controller according to predefined conditions.
 Users can restore the system by selecting one of the saved backup points.
-These backup data are used when files of the Hi6 controller are deleted or damaged due to a malfunction or user error.
+These backup data are used when files of the Hi7 controller are deleted or damaged due to a malfunction or user error.
 
 The backup operation can be configured using the following three methods:
 

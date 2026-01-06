@@ -1,16 +1,16 @@
 ﻿{
     "langCode": "en",
-    "series": "Hi6 Controller",
+    "series": "Hi7 Controller",
     "title": "Function Manual - Auto Backup",
     "publisher": "HD Hyundai Robotics",
     "tocTitle": "Table of Contents",
     "tocTitleElements": "[ \"h1\", \"h2\" ]",
     "variables": {
-        "cont_model": "Hi6"
+        "cont_model": "Hi7"
     },
-    "docId": "HI6AUTOBACKUP_EN_001",
+    "docId": "HI7AUTOBACKUP_EN_001",
     "references": [
-        { "rpath" : "doc-hi6-operation/english-Hi6-tp630" },
+        { "rpath" : "doc-hi6-operation/english-Hi7-tp630" },
         { "rpath" : "doc-hi6-n-maintenance/english" }
     ]
 }
