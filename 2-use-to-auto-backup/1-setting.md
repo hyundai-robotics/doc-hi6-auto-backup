@@ -148,6 +148,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <thead>
 	<tr>
 		<th>
+			신호 종류
+		</th>	
+		<th>
 			설정 예
 		</th>
 		<th>
@@ -158,6 +161,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <tbody>
 	<tr>
 		<td>
+			fb0. 생략 형식
+		</td>
+		<td>
 			135
 		</td>
 		<td>
@@ -166,10 +172,24 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 	<tr>
 		<td>
+			fb. 객체 형식
+		</td>
+		<td>
 			5.220
 		</td>
 		<td>
 			fb5.220 (fb5의 do220, 혹은 di220)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			fn. 객체 형식
+		</td>
+		<td>
+			.13.94
+		</td>
+		<td>
+			fn13.94 (fb 특정 영역의 do94, 혹은 di94)
 		</td>
 	</tr>
 </tbody>
