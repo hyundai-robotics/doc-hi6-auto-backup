@@ -65,3 +65,7 @@ If the available free space on the main board is less than 10%, the oldest backu
 If insufficient free space is detected during the backup process, the backup operation is aborted.
 
 By opening the History window, you can view records of backup start, completion, and errors
+
+If you enable the `Notification (+N)` filter in the `history` window, you can view the records of backup start and completion.
+
+![](../_assets/backup_log.png)

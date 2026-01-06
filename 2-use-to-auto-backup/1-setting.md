@@ -150,6 +150,9 @@ Example of Assignment Signal Settings.
 <thead>
 	<tr>
 		<th>
+			Signal Type
+		</th>
+		<th>
 			Setting Example
 		</th>
 		<th>
@@ -160,6 +163,9 @@ Example of Assignment Signal Settings.
 <tbody>
 	<tr>
 		<td>
+			fb0. omitted notation
+		</td>
+		<td>
 			135
 		</td>
 		<td>
@@ -168,10 +174,24 @@ Example of Assignment Signal Settings.
 	</tr>
 	<tr>
 		<td>
+			fb. object notation
+		</td>
+		<td>
 			5.220
 		</td>
 		<td>
 			fb5.220 (do220 or di220 of fb5)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			fn. object notation
+		</td>
+		<td>
+			.13.94
+		</td>
+		<td>
+			fn13.94 (fb's specific region's do94, or di94)
 		</td>
 	</tr>
 </tbody>

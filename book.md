@@ -186,6 +186,9 @@ Example of Assignment Signal Settings.
 <thead>
 	<tr>
 		<th>
+			Signal Type
+		</th>
+		<th>
 			Setting Example
 		</th>
 		<th>
@@ -196,6 +199,9 @@ Example of Assignment Signal Settings.
 <tbody>
 	<tr>
 		<td>
+			fb0. omitted notation
+		</td>
+		<td>
 			135
 		</td>
 		<td>
@@ -204,10 +210,24 @@ Example of Assignment Signal Settings.
 	</tr>
 	<tr>
 		<td>
+			fb. object notation
+		</td>
+		<td>
 			5.220
 		</td>
 		<td>
 			fb5.220 (do220 or di220 of fb5)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			fn. object notation
+		</td>
+		<td>
+			.13.94
+		</td>
+		<td>
+			fn13.94 (fb's specific region's do94, or di94)
 		</td>
 	</tr>
 </tbody>
@@ -278,6 +298,10 @@ If the available free space on the main board is less than 10%, the oldest backu
 If insufficient free space is detected during the backup process, the backup operation is aborted.
 
 By opening the History window, you can view records of backup start, completion, and errors
+
+If you enable the `Notification (+N)` filter in the `history` window, you can view the records of backup start and completion.
+
+![](../_assets/backup_log.png)
 # 2.3 Restore
 
 Navigate to `[F2: system] – 2: Control parameter – 8: Automatic backup & restoration`.
