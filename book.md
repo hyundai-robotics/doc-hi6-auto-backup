@@ -6,7 +6,7 @@
 
 본 설명서를 잘 이해하기 위해서는 아래의 지식을 갖추고 있어야 합니다.
 
-* [Hi7 로봇제어기 조작설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/README)
+* [Hi7 로봇제어기 조작설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-Hi7-tp630/README)
 # 1.2 자동 백업 기능에 대해서
 
 자동 백업은 미리 설정된 조건에 의해 Hi7 제어기의 현재 프로젝트 폴더, 로그(log) 폴더 전체를 자동 혹은 수동으로 백업하는 기능 입니다. 사용자는 백업된 시점 중 하나를 선택하여 시스템을 복원할 수 있습니다. 고장 혹은 사용자 실수에 의해 Hi7 제어기의 파일이 지워지거나 손상되었을 때, 이러한 백업 데이터들이 사용됩니다.
@@ -278,7 +278,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 이력 창에서 알림(+N) 필터를 켜면, 백업 시작과 종료의 기록을 볼 수 있습니다.
 
-![그림. 복원 대화상자](../_assets/backup_log.png)
+![](../_assets/backup_log.png)
 # 2.3 복원
 
 `[F2: 시스템] – 2: 제어 파라미터 - 8: 자동 백업 및 복원` 화면으로 진입하십시오.

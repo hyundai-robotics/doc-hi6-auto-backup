@@ -63,4 +63,4 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 이력 창에서 알림(+N) 필터를 켜면, 백업 시작과 종료의 기록을 볼 수 있습니다.
 
-![그림. 복원 대화상자](../_assets/backup_log.png)
+![](../_assets/backup_log.png)
