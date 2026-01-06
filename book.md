@@ -168,6 +168,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <thead>
 	<tr>
 		<th>
+			신호 종류
+		</th>	
+		<th>
 			설정 예
 		</th>
 		<th>
@@ -178,6 +181,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <tbody>
 	<tr>
 		<td>
+			fb0. 생략 형식
+		</td>
+		<td>
 			135
 		</td>
 		<td>
@@ -186,10 +192,24 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 	<tr>
 		<td>
+			fb. 객체 형식
+		</td>
+		<td>
 			5.220
 		</td>
 		<td>
 			fb5.220 (fb5의 do220, 혹은 di220)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			fn. 객체 형식
+		</td>
+		<td>
+			.13.94
+		</td>
+		<td>
+			fn13.94 (fb 특정 영역의 do94, 혹은 di94)
 		</td>
 	</tr>
 </tbody>
@@ -204,6 +224,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 ![](../_assets/backup_doing.png)
 
 ![](../_assets/backup_en.png)
+
+
+백업 중엔 안전을 위해 가급적 티치펜던트의 키패드나 터치스크린을 조작하지 말고 기다려 주십시오.
 
 백업되는 위치는 티치펜던트 혹은 메인 모듈 내의 아래 경로입니다.
 
@@ -253,7 +276,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 메인보드의 여유공간이 10% 미만일 경우에는, 가장 오래된 백업지점을 삭제한 후 백업이 수행됩니다. 만일, 백업 중 여유공간이 모자랄 경우에는 백업이 중단됩니다.
 
-이력 창을 열면, 백업 시작과 종료, 에러의 기록을 볼수 있습니다.
+이력 창에서 알림(+N) 필터를 켜면, 백업 시작과 종료의 기록을 볼 수 있습니다.
+
+![그림. 복원 대화상자](../_assets/backup_log.png)
 # 2.3 복원
 
 `[F2: 시스템] – 2: 제어 파라미터 - 8: 자동 백업 및 복원` 화면으로 진입하십시오.
