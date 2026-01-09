@@ -1,6 +1,6 @@
 ﻿# 2.1 Settings
 
-Navigate to `[F2: System] – 2: Control parameter – 8: Automatic Backup & Restoration`.
+Navigate to `[F2: System] - 2: Control parameter - 8: Automatic Backup & Restoration`.
 
 Press the `[F2: Backup Now]` button to perform a backup immediately, regardless of the current settings.
 (Only the `automatic backup storage location` follows the currently saved configuration.)

@@ -25,7 +25,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <table>
 	<tr>
 		<td class='grayed'>
-			<p>Path Name – TP</p>
+			<p>Path Name - TP</p>
 		</td>
 		<td>
 			<p>/usr/share/hyundai/hi6/backup/ts/</p>
@@ -36,7 +36,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 	<tr>
 		<td class='grayed'>
-			<p>Path Name – MAIN</p>
+			<p>Path Name - MAIN</p>
 		</td>
 		<td>
 			<p>/ata0:2/lib/hi6/backup/ts/</p>
