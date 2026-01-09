@@ -1,16 +1,5 @@
 ﻿# Hi7 Robot Controller Function Manual - Auto Backup
 
-{% hint style="warning" %}
-The information provided in this product manual is the property of HD Hyundai Robotics.
-
-It cannot be reproduced or redistributed in part or whole without written consent from HD Hyundai Robotics, and it cannot be provided to third parties or used for other purposes.
-
-
-The manual is subject to change without prior notification.
-
-
-
-**Copyright ⓒ 2025 by HD Hyundai Robotics**
 {% endhint %}
 # 1. Overview
 
@@ -36,7 +25,7 @@ The backup operation can be configured using the following three methods:
 
 # 2.1 Settings
 
-Navigate to `[F2: System] – 2: Control parameter – 8: Automatic Backup & Restoration`.
+Navigate to `[F2: System] - 2: Control parameter - 8: Automatic Backup & Restoration`.
 
 Press the `[F2: Backup Now]` button to perform a backup immediately, regardless of the current settings.
 (Only the `automatic backup storage location` follows the currently saved configuration.)
@@ -258,7 +247,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <table>
 	<tr>
 		<td class='grayed'>
-			<p>Path Name – TP</p>
+			<p>Path Name - TP</p>
 		</td>
 		<td>
 			<p>/usr/share/hyundai/hi6/backup/ts/</p>
@@ -269,7 +258,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 	<tr>
 		<td class='grayed'>
-			<p>Path Name – MAIN</p>
+			<p>Path Name - MAIN</p>
 		</td>
 		<td>
 			<p>/ata0:2/lib/hi6/backup/ts/</p>
@@ -304,7 +293,7 @@ If you enable the `Notification (+N)` filter in the `history` window, you can vi
 ![](../_assets/backup_log.png)
 # 2.3 Restore
 
-Navigate to `[F2: system] – 2: Control parameter – 8: Automatic backup & restoration`.
+Navigate to `[F2: system] - 2: Control parameter - 8: Automatic backup & restoration`.
 
 Click the [F1: Restore] button to display the screen shown below.
 

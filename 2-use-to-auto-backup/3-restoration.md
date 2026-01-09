@@ -1,6 +1,6 @@
 ﻿# 2.3 Restore
 
-Navigate to `[F2: system] – 2: Control parameter – 8: Automatic backup & restoration`.
+Navigate to `[F2: system] - 2: Control parameter - 8: Automatic backup & restoration`.
 
 Click the [F1: Restore] button to display the screen shown below.
 
