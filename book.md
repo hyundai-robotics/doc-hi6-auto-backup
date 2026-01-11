@@ -1,23 +1,35 @@
-﻿# Hi7 로봇제어기 기능설명서 - 자동 백업
+﻿
+[__SOURCE](README.md)
+# ${cont_model} 로봇제어기 기능설명서 - 자동 백업
 
+
+[__SOURCE](1-overview/README.md)
 # 1. 개요
 
+
+[__SOURCE](1-overview/1-prerequisite.md)
 # 1.1 사전지식
 
 본 설명서를 잘 이해하기 위해서는 아래의 지식을 갖추고 있어야 합니다.
 
-* [Hi7 로봇제어기 조작설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-Hi7-tp630/README)
+* [${cont_model} 로봇제어기 조작설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-${cont_model}-tp630/README)
+
+[__SOURCE](1-overview/2-about-auto-backup.md)
 # 1.2 자동 백업 기능에 대해서
 
-자동 백업은 미리 설정된 조건에 의해 Hi7 제어기의 현재 프로젝트 폴더, 로그(log) 폴더 전체를 자동 혹은 수동으로 백업하는 기능 입니다. 사용자는 백업된 시점 중 하나를 선택하여 시스템을 복원할 수 있습니다. 고장 혹은 사용자 실수에 의해 Hi7 제어기의 파일이 지워지거나 손상되었을 때, 이러한 백업 데이터들이 사용됩니다.
+자동 백업은 미리 설정된 조건에 의해 ${cont_model} 제어기의 현재 프로젝트 폴더, 로그(log) 폴더 전체를 자동 혹은 수동으로 백업하는 기능 입니다. 사용자는 백업된 시점 중 하나를 선택하여 시스템을 복원할 수 있습니다. 고장 혹은 사용자 실수에 의해 ${cont_model} 제어기의 파일이 지워지거나 손상되었을 때, 이러한 백업 데이터들이 사용됩니다.
 
 백업을 수행하는 조건은 다음 3가지 방식으로 정할 수 있습니다.
 
 1. 지정된 요일과 시간 (최대 4개 설정)
 2. 지정된 입력할당신호가 켜질 때
 3. 수동 -> 자동으로 모드가 전환될 때
+
+[__SOURCE](2-use-to-auto-backup/README.md)
 # 2. 자동 백업의 사용
 
+
+[__SOURCE](2-use-to-auto-backup/1-setting.md)
 # 2.1 설정
 
 `[F2: 시스템] - 2: 제어 파라미터 - 8: 자동 백업 및 복원` 화면으로 진입하십시오.
@@ -213,7 +225,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 		</td>
 	</tr>
 </tbody>
-</table># 2.2 자동 백업의 실행
+</table>
+[__SOURCE](2-use-to-auto-backup/2-execute-auto-backup.md)
+# 2.2 자동 백업의 실행
 
 백업 조건이 만족하는 순간 백업이 실행됩니다. 설정 화면, 교시, 조그 진행 도중, 자동 모드의 로봇 재생 등 어떠한 상황에서도 백업은 수행됩니다. 단, 이미 백업이나 복원이 수행되고 있는 중에는 백업이 수행되지 않습니다.
 
@@ -279,6 +293,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 이력 창에서 알림(+N) 필터를 켜면, 백업 시작과 종료의 기록을 볼 수 있습니다.
 
 ![](../_assets/backup_log.png)
+
+[__SOURCE](2-use-to-auto-backup/3-restoration.md)
 # 2.3 복원
 
 `[F2: 시스템] - 2: 제어 파라미터 - 8: 자동 백업 및 복원` 화면으로 진입하십시오.
@@ -295,11 +311,15 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 복원이 완료되면 아래 그림과 같은 메시지가 나타납니다. 전원을 재투입하면 정상적인 사용이 가능해집니다.
 
 ![그림. 복원 완료](<../_assets/restored_reboot.png>)
+
+[__SOURCE](appendices/rules-occupational-safety.md)
 # 산업안전보건기준에 관한 규칙 및 안전검사 고시
 
 당해 산업용 로봇은 산업안전보건기준에 관한 규칙 및 안전검사 고시(검사 대상일 경우)의 검사 기준을 고려하여 설치하여야 한다.
 
 "[산업안전보건기준에 관한 규칙](https://hrbook-hrc.web.app/#/view/rules-on-occupational-safety-and-health-standards/korean/README)"
+
+[__SOURCE](quality-assurance.md)
 # 품질보증
 
 "[품질보증](https://hrbook-hrc.web.app/#/view/quality-assurance/korean/README)"
