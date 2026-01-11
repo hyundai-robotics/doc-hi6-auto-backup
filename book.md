@@ -1,18 +1,26 @@
-﻿# Hi7 Robot Controller Function Manual - Auto Backup
+﻿
+[__SOURCE](README.md)
+# ${cont_model} Robot Controller Function Manual - Auto Backup
 
 {% endhint %}
+
+[__SOURCE](1-overview/README.md)
 # 1. Overview
 
+
+[__SOURCE](1-overview/1-prerequisite.md)
 # 1.1 Prerequisite
 
 The following knowledge is necessary to understand this manual.
 
-* [Hi7 Robot Controller Operation Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-Hi7-tp630/README)
+* [${cont_model} Robot Controller Operation Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-${cont_model}-tp630/README)
+
+[__SOURCE](1-overview/2-about-auto-backup.md)
 # 1.2 About the Auto Backup Function
 
-The Auto Backup function automatically or manually backs up the current `project/` folder and the entire `log/` folder of the Hi7 controller according to predefined conditions.
+The Auto Backup function automatically or manually backs up the current `project/` folder and the entire `log/` folder of the ${cont_model} controller according to predefined conditions.
 Users can restore the system by selecting one of the saved backup points.
-These backup data are used when files of the Hi7 controller are deleted or damaged due to a malfunction or user error.
+These backup data are used when files of the ${cont_model} controller are deleted or damaged due to a malfunction or user error.
 
 The backup operation can be configured using the following three methods:
 
@@ -21,8 +29,12 @@ The backup operation can be configured using the following three methods:
 2. When a specified input assignment signal is turned ON
 
 3. When the operating mode is switched from Manual to Automatic
+
+[__SOURCE](2-use-to-auto-backup/README.md)
 # 2. Using the Auto Backup
 
+
+[__SOURCE](2-use-to-auto-backup/1-setting.md)
 # 2.1 Settings
 
 Navigate to `[F2: System] - 2: Control parameter - 8: Automatic Backup & Restoration`.
@@ -220,7 +232,9 @@ Example of Assignment Signal Settings.
 		</td>
 	</tr>
 </tbody>
-</table># 2.2 Execution of Automatic Backup
+</table>
+[__SOURCE](2-use-to-auto-backup/2-execute-auto-backup.md)
+# 2.2 Execution of Automatic Backup
 
 A backup is executed at the moment the configured backup conditions are met.
 Backups are performed in any situation, including during the settings screen, teaching operations, jogging, or robot playback in Automatic mode.
@@ -291,6 +305,8 @@ By opening the History window, you can view records of backup start, completion,
 If you enable the `Notification (+N)` filter in the `history` window, you can view the records of backup start and completion.
 
 ![](../_assets/backup_log.png)
+
+[__SOURCE](2-use-to-auto-backup/3-restoration.md)
 # 2.3 Restore
 
 Navigate to `[F2: system] - 2: Control parameter - 8: Automatic backup & restoration`.
@@ -310,11 +326,15 @@ When the restore process is completed, a message like the one shown below is dis
 After re-power the system, the system will be ready for normal operation.
 
 ![Fig. restoration completed](<../_assets/restored_reboot.png>)
+
+[__SOURCE](appendices/rules-occupational-safety.md)
 # Rules on Occupational Safety and Health Standards, and Notice for Safety Inspection
 
 The industrial robot should be installed in consideration of the inspection standards both of the Rules on Occupational Safety and Health Standards and of the Notice for Safety Inspection \(if subject to inspection\).
 
 "[Rules on Occupational Safety and Health Standards](https://hrbook-hrc.web.app/#/view/rules-on-occupational-safety-and-health-standards/english/README)"
+
+[__SOURCE](quality-assurance.md)
 # Quality Assurance
 
 "[Quality Assurance](https://hrbook-hrc.web.app/#/view/quality-assurance/english/README)"
