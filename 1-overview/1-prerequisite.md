@@ -1,5 +1,5 @@
-﻿# 1.1 Prerequisite
+﻿# 1.1 前提条件
 
-The following knowledge is necessary to understand this manual.
+理解本手册需要以下知识。
 
-* [${cont_model} Robot Controller Operation Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-${cont_model}-tp630/README)
+* [${cont_model} 机器人控制器操作手册](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-${cont_model}-tp630/README)
