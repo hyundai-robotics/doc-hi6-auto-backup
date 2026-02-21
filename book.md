@@ -1,4 +1,12 @@
 ﻿
+[__SOURCE](README.md)
+# ${cont_model} 机器人控制器功能手册 - 自动备份
+
+{% endhint %}
+[__SOURCE](0-about-this-manual/precautions.md)
+# 注意事项
+
+{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/zh/precautions.md" %}
 [__SOURCE](1-overview/README.md)
 # 1. 概述
 [__SOURCE](1-overview/1-prerequisite.md)
@@ -313,3 +321,13 @@ MAIN/backup/ts/b20230512_1730/
 重新启动系统后，系统将准备好正常操作。
 
 ![Fig. restoration completed](<../_assets/restored_reboot.png>)
+[__SOURCE](appendices/rules-occupational-safety.md)
+# 职业安全与健康标准的规则，以及安全检查通知
+
+工业机器人应考虑到职业安全与健康标准的规则和安全检查通知的检查标准进行安装（如果需要检查）。
+
+"[职业安全与健康标准的规则](https://hrbook-hrc.web.app/#/view/rules-on-occupational-safety-and-health-standards/en/README)"
+[__SOURCE](quality-assurance.md)
+# 质量保证
+
+"[Quality Assurance](https://hrbook-hrc.web.app/#/view/quality-assurance/en/README)"

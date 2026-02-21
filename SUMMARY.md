@@ -1,7 +1,7 @@
 ﻿# Table of contents
 
-          * [${cont_model} 机器人控制器功能手册 - 自动备份](README.md)
-          * [注意事项](0-about-this-manual/precautions.md)
+* [${cont_model} 机器人控制器功能手册 - 自动备份](README.md)
+* [注意事项](0-about-this-manual/precautions.md)
 * [1. 概述](1-overview/README.md)
   * [1.1 前提条件](1-overview/1-prerequisite.md)
   * [1.2 关于自动备份功能](1-overview/2-about-auto-backup.md)
@@ -9,5 +9,5 @@
   * [2.1 设置](2-use-to-auto-backup/1-setting.md)
   * [2.2 自动备份的执行](2-use-to-auto-backup/2-execute-auto-backup.md)
   * [2.3 恢复](2-use-to-auto-backup/3-restoration.md)
-          * [职业安全与健康标准的规则，以及安全检查通知](appendices/rules-occupational-safety.md)
-          * [质量保证](quality-assurance.md)
+* [职业安全与健康标准的规则，以及安全检查通知](appendices/rules-occupational-safety.md)
+* [质量保证](quality-assurance.md)
