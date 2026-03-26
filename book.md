@@ -18,7 +18,7 @@
 
 The following knowledge is necessary to understand this manual.
 
-* [${cont_model} Robot Controller Operation Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-${cont_model}-tp630/README)
+* [${cont_model} Robot Controller Operation Manual](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-tp630/README?cont_model=${cont_model})
 
 [__SOURCE](1-overview/2-about-auto-backup.md)
 # 1.2 About the Auto Backup Function
