@@ -17,7 +17,7 @@
 
 본 설명서를 잘 이해하기 위해서는 아래의 지식을 갖추고 있어야 합니다.
 
-* [${cont_model} 로봇제어기 조작설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-${cont_model}-tp630/README)
+* [${cont_model} 로봇제어기 조작설명서](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-tp630/README?cont_model=${cont_model})
 
 [__SOURCE](1-overview/2-about-auto-backup.md)
 # 1.2 자동 백업 기능에 대해서
