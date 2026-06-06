@@ -1,7 +1,9 @@
 ﻿# Table of contents
 
 * [${cont_model} Robot Controller Function Manual - Auto Backup](README.md)
-* [Precautions](0-about-this-manual/precautions.md)
+* [About the Manual](0-about-this-manual/README.md)
+  * [Precautions](0-about-this-manual/precautions.md)
+  * [Safety Cautions](0-about-this-manual/safety-notice.md)
 * [1. Overview](1-overview/README.md)
   * [1.1 Prerequisite](1-overview/1-prerequisite.md)
   * [1.2 About the Auto Backup Function](1-overview/2-about-auto-backup.md)
