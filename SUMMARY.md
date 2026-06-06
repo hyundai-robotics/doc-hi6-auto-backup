@@ -1,7 +1,9 @@
 ﻿# Table of contents
 
 * [${cont_model} 机器人控制器功能手册 - 自动备份](README.md)
-* [注意事项](0-about-this-manual/precautions.md)
+* [关于手册](0-about-this-manual/README.md)
+  * [注意事项](0-about-this-manual/precautions.md)
+  * [安全注意事项](0-about-this-manual/safety-notice.md)
 * [1. 概述](1-overview/README.md)
   * [1.1 前提条件](1-overview/1-prerequisite.md)
   * [1.2 关于自动备份功能](1-overview/2-about-auto-backup.md)
