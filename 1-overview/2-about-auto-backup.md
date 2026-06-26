@@ -1,13 +1,13 @@
-﻿# 1.2 About the Auto Backup Function
+﻿# 1.2 关于自动备份功能
 
-The Auto Backup function automatically or manually backs up the current `project/` folder and the entire `log/` folder of the ${cont_model} controller according to predefined conditions.
-Users can restore the system by selecting one of the saved backup points.
-These backup data are used when files of the ${cont_model} controller are deleted or damaged due to a malfunction or user error.
+自动备份功能根据预定义条件自动或手动备份当前 `project/` 文件夹和整个 ` (log/)` 文件夹的 ${cont_model} 控制器。
+用户可以通过选择其中一个保存的备份点来恢复系统。
+当 ${cont_model} 控制器的文件因故障或用户错误而被删除或损坏时，这些备份数据将被使用。
 
-The backup operation can be configured using the following three methods:
+备份操作可以使用以下三种方法配置：
 
-1. At specified days of the week and times (up to four schedules can be set)
+1. 在指定的星期几和时间（最多可以设置四个日程）
 
-2. When a specified input assignment signal is turned ON
+2. 当指定的输入分配信号被开启时
 
-3. When the operating mode is switched from Manual to Automatic
+3. 当操作模式从手动切换到自动时

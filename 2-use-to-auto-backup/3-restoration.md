@@ -1,6 +1,6 @@
-﻿# 2.3 Restore
+﻿# 2.3 恢复
 
-Navigate to `[F2: system] - 2: Control parameter - 8: Automatic backup & restoration`.
+Navigate to `[F2: 系统] - 2: 控制参数 - 8: Automatic backup & restoration ([F2: system] - 2: Control parameter - 8: Automatic backup & restoration)`.
 
 Click the [F1: Restore] button to display the screen shown below.
 
